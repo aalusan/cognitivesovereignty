@@ -3,7 +3,7 @@
 - **Name:** Andres L
 - **What to call them:** Andres / Fundador
 - **Pronouns:** _(pendiente)_
-- **Timezone:** _(pendiente — confirmar)_
+- **Timezone:** America/Santiago (Chile, UTC-3)
 - **Role:** Fundador de la Fundación Soberanía Cognitiva
 
 ## Context
