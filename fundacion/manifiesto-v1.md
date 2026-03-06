@@ -130,4 +130,10 @@ El reloj ya está corriendo.
 
 *Este es el primero de una serie de ensayos sobre Soberanía Cognitiva.*
 
+---
+
+## NOTA FUNDACIONAL (06/03/2026)
+
+Clarificación del fundador: La fundación no es anti-IA. La IA como herramienta al servicio del humano es parte de la visión. El problema es la extracción no consentida del criterio humano — no el uso de IA en sí. La pregunta no es "¿debería existir la IA?" sino "¿quién controla la transacción cuando la IA aprende de ti?"
+
 *ALSan — 03/03/2026*
