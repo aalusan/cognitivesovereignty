@@ -1,223 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cognitive Sovereignty: Working Paper v2</title>
-    <meta name="description" content="Working paper on cognitive sovereignty and the ownership of human judgment in the age of AI.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<!-- Header -->
-<header class="header">
-    <div class="container">
-        <a href="index.html" class="back-link">← Back</a>
-        <h1 class="logo">Cognitive Sovereignty Foundation</h1>
-    </div>
-</header>
-
-<!-- Paper Container with Sidebar TOC -->
-<div class="paper-container">
-    
-    <!-- Sticky Table of Contents -->
-    <aside class="toc-sidebar">
-        <nav class="toc">
-            <h4>Contents</h4>
-            <ul>
-                <li><a href="#abstract">Abstract</a></li>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#related-work">Related Work</a></li>
-                <li><a href="#problem">The Problem</a></li>
-                <li><a href="#framework">Framework</a></li>
-                <li><a href="#principles">Principles</a></li>
-                <li><a href="#questions">Open Questions</a></li>
-                <li><a href="#conclusion">Conclusion</a></li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="paper-content">
-        <div class="container-paper">
-
-            <!-- Title & Author -->
-            <h1>Cognitive Sovereignty: On the Ownership of Human Judgment in the Age of Autonomous AI</h1>
-            <div class="paper-meta">
-                <p><strong>ALSan</strong></p>
-                <p>Independent Researcher. B.Eng. & M.Sc. Innovation, Pontificia Universidad Católica de Chile.<br>
-                Executive Education in Artificial Intelligence, Harvard University.<br>
-                Cognitive Sovereignty Foundation<br>
-                contact@cognitivesovereigntyfoundation.org</p>
-                <p><em>Working Paper — March 2026</em></p>
-            </div>
-
-            <!-- Abstract -->
-            <section id="abstract">
-                <h2>Abstract</h2>
-                <p>We report on a personal experiment in which the author constructed an autonomous agent trained on their own decision-making patterns, risk evaluation criteria, and reasoning frameworks. Using years of accumulated interactions with AI systems, professional email correspondence, and domain-specific prompts designed to extract cognitive patterns, the agent was trained and deployed on Gemini Studio within a two-week period. The agent demonstrated high fidelity in replicating what decisions were made, while systematically failing to capture who makes them — the friction, doubt, and consequence-forged intuition that constitutes genuine human judgment.</p>
-                <p>This gap raises unresolved questions regarding ownership, compensation, and accountability in the extraction of cognitive assets from human operators of AI systems. We document the cultural and technical mechanisms by which platforms currently extract human judgment without explicit consent or compensation, and propose a framework for cognitive sovereignty — the principle that an individual's reasoning architecture constitutes a protectable and compensable asset.</p>
-                <p><strong>Keywords:</strong> cognitive sovereignty, AI alignment, data ownership, human judgment, cognitive assets, provenance, AI ethics</p>
-            </section>
-
-            <!-- Introduction -->
-            <section id="introduction">
-                <h2>1. Introduction</h2>
-                <p>The question of what artificial intelligence can and cannot replicate from the human mind has been approached primarily as a technical problem. We argue it is, at its core, a property problem.</p>
-                <p>In early 2026, the author conducted a personal experiment with a clear practical motivation: to reclaim time by delegating a portion of professional decision-making to an autonomous agent. The agent was trained using years of interactions with large language model systems, professional email correspondence spanning multiple years, and a structured series of prompts specifically designed to extract the author's cognitive patterns — how risk is evaluated, how options are weighted, how uncertainty is navigated.</p>
-                <p>The experiment was implemented on Google's Gemini Studio platform over approximately two weeks. The resulting agent demonstrated a striking asymmetry: in replicating what decisions were made, it performed with notable precision. In replicating who makes them — the specific texture of doubt, the learned tolerance for particular kinds of risk, the intuitions built through years of consequential error — it failed consistently.</p>
-                <p>The agent sounded like a bot. Because it was one.</p>
-                <p>This asymmetry between the replicable <em>what</em> and the irreplicable <em>who</em> has antecedents in several philosophical traditions. We do not claim that this irreducibility is permanent or metaphysically necessary. We claim that it is <em>currently real</em>, that it has <em>economic consequences</em>, and that those consequences create <em>obligations</em>.</p>
-            </section>
-
-            <!-- Related Work -->
-            <section id="related-work">
-                <h2>2. Related Work</h2>
-                <p>The question of data ownership in AI systems has received increasing attention following high-profile litigation around training data provenance. However, the existing discourse has focused almost exclusively on content ownership — the rights of creators whose text, images, or code appear in training datasets — rather than on the ownership of the reasoning processes that produced that content.</p>
-                
-                <h3>2.1 Regulatory Frameworks: Global Gaps in Cognitive Asset Protection</h3>
-                <p>The existing regulatory landscape reveals a systematic asymmetry. While numerous frameworks protect personal data processing and privacy, none establish ownership of or compensation for the cognitive patterns themselves.</p>
-                <ul>
-                    <li><strong>GDPR (EU, 2018):</strong> Regulates personal data processing and transparency but does not address cognitive asset ownership.</li>
-                    <li><strong>AI Act (EU, 2024):</strong> Regulates AI system transparency and deployment but is agnostic to cognitive source ownership.</li>
-                    <li><strong>Ley 21.383 (Chile, 2021):</strong> Constitutional protection of cognitive integrity. Provides legal precedent but pending legislative implementation.</li>
-                    <li><strong>Data Rights Legislation:</strong> Provides procedural rights but no compensatory entitlement for cognitive asset use.</li>
-                </ul>
-                
-                <h3>2.2 Ley 21.383 and Constitutional Neuroderechs: Chile's Unique Position</h3>
-                <p>On October 25, 2021, Chile reformed Article 19.1 of its Constitution to include explicit protection for "brain activity" and information derived from it. This is the first and only constitutional protection of cognitive integrity in any jurisdiction globally.</p>
-                <p>The cognitive sovereignty framework proposes extending Ley 21.383's constitutional principle from <em>privacy to ownership</em>, from <em>integrity to attribution</em>, and from <em>consent to verification</em>.</p>
-            </section>
-
-            <!-- The Problem -->
-            <section id="problem">
-                <h2>3. The Problem: Cognitive Extraction at Scale</h2>
-                
-                <h3>3.1 The Mechanism: The RLHF Pipeline as Extraction</h3>
-                <p>Contemporary AI platforms extract human judgment through mechanisms that are technically sophisticated and culturally invisible. Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO) formalize the process by which human preference judgments train reward models that guide language model behavior.</p>
-                <p>Cognitive extraction occurs through three primary channels:</p>
-                <ul>
-                    <li><strong>Direct Correction Loops:</strong> Every correction to an AI output constitutes a training signal — a donation of cognitive judgment.</li>
-                    <li><strong>Behavioral Telemetry:</strong> How users interact with AI systems encodes their judgment. Reading patterns, copy/paste behavior, reformulation strategies — all are signal.</li>
-                    <li><strong>Fine-tuning Interfaces:</strong> Platforms explicitly offer custom models trained on user interactions, typically permitting incorporation into future model training.</li>
-                </ul>
-                <p>Across all three channels, human judgment is extracted as a commodity that improves AI model performance, while the value generated accrues entirely to the platform.</p>
-                
-                <h3>3.2 A Documented Case: Samsung Employees and ChatGPT</h3>
-                <p>In April 2023, Samsung engineers discovered colleagues had been pasting confidential source code and proprietary processes into ChatGPT. The data became part of OpenAI's training pipeline. Samsung's terms of service agreement explicitly permitted this — the employees had consented by clicking "agree" on a document they did not fully read or understand.</p>
-                <p>This case illustrates why the extraction mechanism matters: it occurs systematically, affects organizations with sophisticated security practices, and provides no remedy even when extraction is discovered.</p>
-                
-                <h3>3.3 The Posthumous Dimension</h3>
-                <p>In February 2026, Meta Platforms received approval for a patent describing an AI model trained on a user's activity on Facebook and Instagram, capable of simulating that user's behavior when absent — including posting, messaging, and video calls. The explicit use case: when the user has died.</p>
-                <p>This represents a qualitative escalation. The question is no longer only whether platforms compensate users during life, but whether cognitive assets — once extracted — can be used to simulate personhood indefinitely, without consent and without the possibility of refusal.</p>
-            </section>
-
-            <!-- Framework -->
-            <section id="framework">
-                <h2>4. A Framework for Cognitive Sovereignty</h2>
-                
-                <h3>4.1 Core Principle</h3>
-                <p>We define <strong>cognitive sovereignty</strong> as the principle that an individual's reasoning architecture — their characteristic patterns of judgment under uncertainty, their learned tolerance for specific kinds of risk, their intuitions built through consequential experience — constitutes a protectable and compensable asset that belongs to its originator.</p>
-                
-                <h3>4.1.1 The Property Argument</h3>
-                <p>We advance three independent arguments for why cognitive architecture should be treated as property:</p>
-                <ul>
-                    <li><strong>The Lockean Argument:</strong> An individual's reasoning architecture is the product of labor—years of consequential decision-making, error, and adaptation. Mixing labor with raw material creates a property claim. The result belongs to the laborer.</li>
-                    <li><strong>The Hegelian Argument:</strong> Property constitutes personhood. A reasoning architecture is not merely something one <em>has</em>; it is constitutive of who one <em>is</em>. Extraction without consent assaults the integrity of the person.</li>
-                    <li><strong>The Pragmatic Argument:</strong> A society that permits uncompensated extraction rewards extractors and punishes developers. This is economically inefficient and socially corrosive. A property framework corrects this misalignment.</li>
-                </ul>
-                
-                <h3>4.2 The Three Components</h3>
-                <p>A functioning cognitive sovereignty framework requires three technical components:</p>
-                <ul>
-                    <li><strong>Cognitive Capture:</strong> A structured protocol for documenting decision-making processes in a format that is both human-readable and machine-verifiable.</li>
-                    <li><strong>Cryptographic Certification:</strong> A mechanism for establishing timestamped, verifiable ownership of a cognitive asset corpus prior to its use in any commercial AI system.</li>
-                    <li><strong>Compensation Protocol:</strong> A transparent mechanism by which any system using a certified cognitive asset triggers a compensatory transaction to the asset's owner.</li>
-                </ul>
-                
-                <h3>4.3 What This Is Not</h3>
-                <p>Cognitive sovereignty is not a claim that human judgment is superior to artificial intelligence in all domains. The claim is more specific: that the space of patterns AI systems can recognize is defined by human judgment, and that the humans whose judgment defines that space are entitled to recognition and compensation.</p>
-                <p>Nor is cognitive sovereignty a claim that all human thinking constitutes a valuable cognitive asset. The framework is most relevant to individuals who have developed distinctive, consequentially-tested judgment through experience.</p>
-                
-                <h3>4.4 Technical Primitives: Building Blocks for Implementation</h3>
-                <p>Several existing technical mechanisms can be combined to implement cognitive sovereignty in practice:</p>
-                <ul>
-                    <li><strong>Membership Inference Attacks (MIA):</strong> Techniques that verify whether a specific piece of data was used in training a machine learning model.</li>
-                    <li><strong>Data Attribution & Influence Functions:</strong> Methods that enable attribution of a model's behavior to specific training examples, forming the technical basis for compensation proportional to contribution.</li>
-                    <li><strong>Cryptographic Watermarking:</strong> Fingerprinting techniques that establish timestamped ownership of cognitive assets before they are exposed to any training system.</li>
-                    <li><strong>Federated Learning:</strong> Architecture that enables model training on user devices rather than centralized servers, preventing extraction entirely.</li>
-                </ul>
-                <p>These primitives, used together, create a comprehensive solution. Watermarking establishes ownership. Attribution quantifies contribution. MIA provides verification. Federated learning prevents extraction.</p>
-                
-                <h3>4.5 The Consent Boundary</h3>
-                <p>A fundamental challenge: do terms of service constitute valid consent to cognitive asset extraction?</p>
-                <p>We argue that current ToS-based consent fails three ethical tests:</p>
-                <ul>
-                    <li><strong>Test 1: Informed Consent Requires Understanding.</strong> Users do not understand what cognitive patterns are being extracted, how their reasoning will be modeled, or what downstream applications will use their cognitive architecture.</li>
-                    <li><strong>Test 2: Informed Consent Requires Alternatives.</strong> A user cannot meaningfully say "no" without forfeiting the core service. The extraction is bundled and non-negotiable.</li>
-                    <li><strong>Test 3: Informed Consent Requires Proportional Value Exchange.</strong> Cognitive extraction provides no reciprocal benefit to the user. The platform benefits economically. The user receives nothing.</li>
-                </ul>
-                <p>Using someone's cognitive architecture without explicit compensation is ethically impermissible, regardless of legal permissibility. The framework proposes to change the law through: explicit prohibition of extraction without specific informed consent; mandatory compensation mechanisms; and verification requirements.</p>
-                
-                <h3>4.6 The Provenance Problem: Establishing Ownership in Black-Box Models</h3>
-                <p>How do you prove that a specific individual's cognitive architecture was extracted and used in a specific AI model? This is the provenance problem — establishing a verifiable causal chain from person to pattern to trained model.</p>
-                <p>The problem has three components: statistical indistinguishability (patterns distributed across millions of parameters), model opacity (we cannot read trained models), and legal standards for evidence.</p>
-                <p>We propose that provenance cannot be solved retroactively. It must be established prospectively, through registration and certification before training occurs:</p>
-                <ul>
-                    <li><strong>Step 1: Cognitive Capture & Registration.</strong> An individual documents their distinctive patterns in a structured, machine-verifiable format <em>before</em> their data is used in any training. This documentation is cryptographically timestamped.</li>
-                    <li><strong>Step 2: Cryptographic Certification.</strong> When the individual's data is incorporated into training, the process is accompanied by a cryptographic signature linking their registered pattern to the specific training dataset and model.</li>
-                    <li><strong>Step 3: Post-Training Verification.</strong> Auditors and regulators can verify which registered patterns contributed to a model and determine compensation owed.</li>
-                </ul>
-                <p>The cognitive sovereignty framework proposes that provenance registration be implemented as an <strong>open protocol</strong>, not as part of any single national law. This allows voluntary adoption and global participation.</p>
-            </section>
-
-            <!-- Non-Negotiable Principles -->
-            <section id="principles">
-                <h2>5. The Non-Negotiable Principles</h2>
-                <ol>
-                    <li><strong>Using a person's reasoning architecture to train a commercial AI system, without their explicit and informed consent, is ethically impermissible</strong> regardless of terms of service.</li>
-                    <li><strong>Acceptance of terms of service does not constitute informed consent</strong> to cognitive asset extraction. Consent requires understanding; extraction mechanisms are not disclosed in comprehensible terms.</li>
-                    <li><strong>Legal permissibility does not establish ethical permissibility.</strong> History shows practices that were legal and are now recognized as harmful. Cognitive extraction may be among them.</li>
-                    <li><strong>The extraction of cognitive assets from millions without recognition or compensation constitutes a form of dispossession</strong> whose consequences are not yet fully understood.</li>
-                    <li><strong>Any system using a person's cognitive architecture for commercial purposes owes that person compensation.</strong> The mechanism must be established before the practice becomes so normalized that the obligation is forgotten.</li>
-                </ol>
-            </section>
-
-            <!-- Open Questions -->
-            <section id="questions">
-                <h2>6. Open Questions</h2>
-                <p>We acknowledge several significant open questions that this framework does not resolve:</p>
-                <ul>
-                    <li><strong>The AGI Boundary Problem:</strong> The economic argument is contingent on current AI capabilities. A genuinely general intelligence would challenge this argument. The ethical argument remains regardless.</li>
-                    <li><strong>The Jurisdiction Problem:</strong> Cognitive assets do not respect national boundaries. Compensation protocols must function globally.</li>
-                    <li><strong>The Verification Problem:</strong> Establishing that specific cognitive architecture was used in training is technically difficult. Provenance verification is an active research priority.</li>
-                    <li><strong>The Commodification Risk:</strong> There is tension between protecting cognitive assets as property and commodifying human judgment in potentially harmful ways.</li>
-                    <li><strong>The Social Construction Problem:</strong> Human judgment is shaped by mentors, institutions, and communities. Can it be individually owned? We argue yes — the analogy is copyright, which vests in individual authors despite social influence.</li>
-                </ul>
-            </section>
-
-            <!-- Conclusion -->
-            <section id="conclusion">
-                <h2>7. Conclusion</h2>
-                <p>An agent trained on years of accumulated human judgment can replicate what decisions are made. It cannot replicate who makes them. The gap between these two—the irreducible <em>who</em>—is the site of genuine cognitive value. It is also the site of ongoing, uncompensated extraction.</p>
-                <p>The question this paper leaves open is not technical. The mechanisms for cognitive capture, certification, and compensation are tractable engineering problems. The question is one of recognition: whether the individuals whose judgment shapes the space in which AI systems operate will be acknowledged as contributors to that shaping, and whether that acknowledgment will carry economic and legal weight.</p>
-                <p>We believe it will. The alternative—a world in which the most consequential cognitive assets of a generation are extracted, used, and eventually used to simulate their owners' personhood after death, without consent or compensation—is one that the humans who built those assets will not accept indefinitely.</p>
-                <p>The clock is already running.</p>
-                <p><strong>The question is this:</strong></p>
-                <h3 style="text-align: center; font-size: 1.5em; margin-top: 2em; margin-bottom: 2em;">Who owns the way you think?</h3>
-            </section>
-
-        </div>
-    </main>
-
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2026 Cognitive Sovereignty Foundation | <a href="mailto:contact@cognitivesovereigntyfoundation.org">contact@cognitivesovereigntyfoundation.org</a></p>
-    </div>
-</footer>
-
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cognitive Sovereignty — Working Paper</title><link rel="stylesheet" href="style.css"><style>.paper-layout{display:grid;grid-template-columns:250px 1fr;gap:2rem;max-width:1100px;margin:0 auto;padding:2rem}.toc{position:sticky;top:2rem;align-self:start;max-height:90vh;overflow-y:auto;font-size:0.85em;border-right:1px solid #ddd;padding-right:1rem}.toc h3{font-size:1em;margin-bottom:0.5em}.toc ul{list-style:none;padding:0}.toc li{margin:0.3em 0}.toc li a{color:#555;text-decoration:none}.toc li a:hover{color:#000}.toc .toc-sub{padding-left:1em;font-size:0.9em}.paper-content{max-width:750px;line-height:1.8;font-family:Georgia,serif}h1{text-align:center;font-size:1.8em;border-bottom:2px solid #333;padding-bottom:0.5em}h2{font-size:1.4em;margin-top:2em;border-bottom:1px solid #ddd;padding-bottom:0.3em}h3{font-size:1.15em;margin-top:1.5em}h4{font-size:1em}blockquote{border-left:4px solid #666;padding-left:1em;color:#555;font-style:italic;margin:1em 0}table{width:100%;border-collapse:collapse;font-size:0.85em;margin:1em 0}th,td{border:1px solid #ccc;padding:8px;text-align:left}th{background:#f5f5f5}.back-link{display:inline-block;margin:1em 0;font-size:0.9em}@media(max-width:768px){.paper-layout{grid-template-columns:1fr}.toc{position:static;border-right:none;border-bottom:1px solid #ddd;padding-bottom:1em;margin-bottom:1em}}</style></head><body><div class="paper-layout"><nav class="toc"><h3>Contents</h3><ul><li><a href="#section-0">Abstract</a></li>
+<li><a href="#section-1">1. INTRODUCTION</a></li>
+<li><a href="#section-2">2. RELATED WORK</a></li>
+<li class="toc-sub"><a href="#section-3">2.1 Regulatory Frameworks: Global Gaps in Cognitive Asset Protection</a></li>
+<li class="toc-sub"><a href="#section-4">2.2 Ley 21.383 and Constitutional Neuroderechos: Chile's Unique Position</a></li>
+<li><a href="#section-5">3. THE PROBLEM: COGNITIVE EXTRACTION AT SCALE</a></li>
+<li class="toc-sub"><a href="#section-6">3.1 The Mechanism: The RLHF Pipeline as Extraction</a></li>
+<li class="toc-sub"><a href="#section-7">3.2 A Documented Case: Samsung Employees and ChatGPT</a></li>
+<li class="toc-sub"><a href="#section-8">3.3 The Posthumous Dimension</a></li>
+<li><a href="#section-9">4. A FRAMEWORK FOR COGNITIVE SOVEREIGNTY</a></li>
+<li class="toc-sub"><a href="#section-10">4.1 Core Principle</a></li>
+<li class="toc-sub"><a href="#section-11">4.2 The Three Components</a></li>
+<li class="toc-sub"><a href="#section-12">4.3 Technical Primitives</a></li>
+<li class="toc-sub"><a href="#section-13">4.4 The Provenance Problem</a></li>
+<li class="toc-sub"><a href="#section-14">4.5 The Consent Boundary</a></li>
+<li><a href="#section-15">5. THE NON-NEGOTIABLE PRINCIPLES</a></li>
+<li><a href="#section-16">References</a></li></ul></nav><article class="paper-content"><a href="/" class="back-link">← Back to Home</a><p><h1>Cognitive Sovereignty: On the Ownership of Human Judgment in the Age of Autonomous AI</h1></p>
+<p><strong>Andrés L.</strong></p>
+<p>¹ Independent Researcher. B.Eng. & M.Sc. Innovation, Pontificia Universidad Católica de Chile.
+Executive Education in Artificial Intelligence, Harvard Business School Online.</p>
+<p><em>Cognitive Sovereignty Initiative | contact@cognitivesovereigntyfoundation.org</em></p>
+<p><em>Working Paper — March 2026</em></p>
+<p><hr></p>
+<p><h2 id="section-0">Abstract</h2></p>
+<p>We report on a personal experiment in which we constructed an autonomous agent trained on their own decision-making patterns, risk evaluation criteria, and reasoning frameworks. Using years of accumulated interactions with AI systems, professional email correspondence, and domain-specific prompts designed to extract cognitive patterns, the agent was trained and deployed on Gemini Studio within a two-week period. The agent demonstrated high fidelity in replicating what decisions were made, while systematically failing to capture who makes them — the friction, doubt, and consequence-forged intuition that constitutes genuine human judgment.</p>
+<p>This gap raises unresolved questions regarding ownership, compensation, and accountability in the extraction of cognitive assets from human operators of AI systems. We document the cultural and technical mechanisms by which platforms currently extract human judgment without explicit consent or compensation, and propose a framework for cognitive sovereignty — the principle that an individual's reasoning architecture constitutes a protectable and compensable asset.</p>
+<p>We further document recent evidence that this problem extends beyond training data to posthumous identity simulation, as demonstrated by a patent approved by Meta Platforms in late 2025. We call for the establishment of verifiable standards for cognitive asset ownership and propose an open protocol for cognitive capture, certification, and compensation. This paper serves as a foundational contribution to that broader conversation.</p>
+<p><strong>Keywords:</strong> cognitive sovereignty, AI alignment, data ownership, human judgment, cognitive assets, provenance, AI ethics</p>
+<p><strong>Author Note:</strong> <em>The ideas expressed in this paper are personal and do not represent the views of my employer or any organization with which the author is affiliated.</em></p>
+<p><hr></p>
+<p><h2 id="section-1">1. INTRODUCTION</h2></p>
+<p>The question of what artificial intelligence can and cannot replicate from the human mind has been approached primarily as a technical problem. We argue it is, at its core, a property problem.</p>
+<p>In early 2026, we conducted a personal experiment with a clear practical motivation: to reclaim time by delegating a portion of professional decision-making to an autonomous agent. The agent was trained using years of interactions with large language model systems, professional email correspondence spanning multiple years, and a structured series of prompts specifically designed to extract the author's cognitive patterns — how risk is evaluated, how options are weighted, how uncertainty is navigated.</p>
+<p>The experiment was implemented on Google's Gemini Studio platform over approximately two weeks. The resulting agent, documented at github.com/aalusan/Clonia and clonia.vercel.app, demonstrated a striking asymmetry: in replicating what decisions were made, it performed with notable precision. In replicating who makes them — the specific texture of doubt, the learned tolerance for particular kinds of risk, the intuitions built through years of consequential error — it failed consistently.</p>
+<p><em>The agent sounded like a bot. Because it was one.</em></p>
+<p>This asymmetry between the replicable what and the irreplicable who has antecedents in several philosophical traditions. Ryle's (1949) distinction between knowing-that and knowing-how identifies a category of knowledge that resists propositional capture. Polanyi's (1966) concept of tacit knowledge — 'we can know more than we can tell' — locates the irreducible element precisely where our experiment found it: in the dimension of judgment that cannot be fully articulated, yet reliably guides action. More recently, enactivist approaches to cognition (Varela, Thompson & Rosch, 1991) have argued that knowing is inseparable from the embodied history of the knower — a position our experimental results independently corroborate. We do not claim that this irreducibility is permanent or metaphysically necessary. We claim that it is currently real, that it has economic consequences, and that those consequences create obligations.</p>
+<p><h2 id="section-2">2. RELATED WORK</h2></p>
+<p>The question of data ownership in AI systems has received increasing attention following high-profile litigation around training data provenance [1, 2, 3]. However, the existing discourse has focused almost exclusively on content ownership — the rights of creators whose text, images, or code appear in training datasets — rather than on the ownership of the reasoning processes that produced that content.</p>
+<p>Several platforms have emerged to address adjacent problems. Obsidian [10] and Notion [6] offer personal knowledge management systems that allow users to capture and organize their thinking over time. Obsidian's local-first architecture explicitly positions data ownership as a core value. However, neither platform addresses the economic question of cognitive asset valuation or the legal question of compensation when those assets are used to improve commercial AI systems.</p>
+<p>Ekai Labs (2024) introduced the concept of 'cognitive tenants' and described AI training as 'the largest transfer of intelligence in history, one prompt at a time.' Their technical approach focuses on portability and vendor lock-in prevention. Our framework differs in scope: we argue that portability is necessary but insufficient, and that the foundational question is one of property rights and compensation, not merely data custody.</p>
+<p>The alignment literature has explored questions of value specification and human oversight [4], but has not substantively addressed the economic and legal dimensions of cognitive asset extraction. Legal scholarship on AI and intellectual property has similarly focused on output ownership rather than input ownership [5].</p>
+<p>To our knowledge, no prior work has proposed a comprehensive framework for cognitive sovereignty that integrates the technical, legal, and economic dimensions of human judgment ownership.</p>
+<p><h3 id="section-3">2.1 Regulatory Frameworks: Global Gaps in Cognitive Asset Protection</h3></p>
+<p>The existing regulatory landscape reveals a systematic asymmetry. While numerous frameworks protect personal data processing and privacy, none establish ownership of or compensation for the cognitive patterns themselves.</p>
+<p>| Framework | Primary Protection | What It Does NOT Protect | Relevance | Current Limitation |
+|---|---|---|---|---|
+| GDPR (EU, 2018) | Personal data processing; profiling transparency | Compensatory rights; cognitive pattern ownership | MEDIUM | Procedural rights, not economic ownership |
+| AI Act (EU, 2024) | High-risk AI transparency; human oversight | Data ownership; compensation for cognitive extraction | LOW | Technology-focused, not source-focused |
+| Ley 21.383 Chile (2021) | Mental integrity; brain activity protection | Ownership of cognitive patterns; compensation rights | HIGH | Protects integrity, not yet property rights |
+| Copyright & IP | Creative expression; compiled data | Cognitive processes; reasoning methods | LOW-MEDIUM | Designed for creative works |
+| Data Rights (CCPA, GDPR) | Right to access; deletion; opt-out | Compensation for ML training use | MEDIUM | Regulate access, not value |
+| Trade Secret | Confidential business processes | Compensation; voluntary disclosure protection | MEDIUM | Protects platform from individual |</p>
+<p><h3 id="section-4">2.2 Ley 21.383 and Constitutional Neuroderechos: Chile's Unique Position</h3></p>
+<p>On October 25, 2021, Chile reformed Article 19.1 of its Constitution to include explicit protection for 'brain activity' and information derived from it. This reform — promoted by Senator Guido Girardi in collaboration with neurorights experts including Rafael Yuste (Columbia University) — is the first and only constitutional protection of cognitive integrity in any jurisdiction globally.</p>
+<p>The cognitive sovereignty framework proposes extending Ley 21.383's constitutional principle into three new dimensions: (1) From Privacy to Ownership (2) From Integrity to Attribution (3) From Consent to Verification.</p>
+<p><h2 id="section-5">3. THE PROBLEM: COGNITIVE EXTRACTION AT SCALE</h2></p>
+<p><h3 id="section-6">3.1 The Mechanism: The RLHF Pipeline as Extraction</h3></p>
+<p><blockquote><em>In this paper, the term "cognitive extraction" refers broadly to the implicit capture of human judgment, reasoning patterns, and decision structures through interaction with AI systems. In many cases, this process occurs as an emergent property of machine learning training dynamics rather than through deliberate institutional design.</em></blockquote></p>
+<p>Contemporary AI platforms extract human judgment through mechanisms that are technically sophisticated and culturally invisible. The process operates primarily through Reinforcement Learning from Human Feedback (RLHF), first formalized by Christiano et al. (2017) and operationalized at scale by Ouyang et al. (2022).</p>
+<p>Extraction occurs across three primary channels: (1) Direct Correction Loops (2) Behavioral Telemetry (3) Fine-tuning Interfaces.</p>
+<p><h3 id="section-7">3.2 A Documented Case: Samsung Employees and ChatGPT</h3></p>
+<p>In April 2023, engineers at Samsung Electronics discovered that colleagues had been pasting confidential source code and trade secrets into ChatGPT — approximately 1 MB of proprietary data per month over three months [34, 35].</p>
+<p><h3 id="section-8">3.3 The Posthumous Dimension</h3></p>
+<p>In February 2026, Meta Platforms received approval for a patent describing an AI model trained on a user's activity, capable of simulating that user's behavior when absent — including after death [7].</p>
+<p><h2 id="section-9">4. A FRAMEWORK FOR COGNITIVE SOVEREIGNTY</h2></p>
+<p><h3 id="section-10">4.1 Core Principle</h3></p>
+<p>We define cognitive sovereignty as the principle that an individual's reasoning architecture constitutes a protectable and compensable asset that belongs to its originator.</p>
+<p><h4>4.1.1 The Property Argument</h4></p>
+<p>Three independent arguments: The Lockean argument (labor), The Hegelian argument (personhood), The pragmatic argument (incentive structure).</p>
+<p><h4>4.1.2 Rights and Markets: A Necessary Distinction</h4></p>
+<p>The base right is inalienable. The derivative right is alienable under terms the individual defines.</p>
+<p><h3 id="section-11">4.2 The Three Components</h3></p>
+<p>Cognitive Capture, Cryptographic Certification, Compensation Protocol.</p>
+<p><h3 id="section-12">4.3 Technical Primitives</h3></p>
+<p>MIA, Data Attribution, Cryptographic Watermarking, Federated Learning.</p>
+<p><h3 id="section-13">4.4 The Provenance Problem</h3></p>
+<p>Provenance must be established prospectively through registration and certification before training occurs.</p>
+<p><h3 id="section-14">4.5 The Consent Boundary</h3></p>
+<p>ToS-based consent fails three ethical tests: Understanding, Alternatives, Proportional Value Exchange.</p>
+<p><h2 id="section-15">5. THE NON-NEGOTIABLE PRINCIPLES</h2></p>
+<p>First: Using a person's reasoning architecture without consent is a violation of cognitive sovereignty.</p>
+<p>Second: Compensation for cognitive asset extraction is an obligation, not charity.</p>
+<p>Third: Posthumous use of cognitive assets requires explicit prior consent.</p>
+<p><h2 id="section-16">References</h2></p>
+<p>[1-39] See full paper for complete reference list.
+</p></article></div></body></html>
