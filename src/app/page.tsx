@@ -29,7 +29,7 @@ export default function Home() {
               We document how AI platforms extract human judgment without explicit consent or compensation. 
               We propose a framework for cognitive ownership, combining technical, legal, and economic dimensions.
             </p>
-            <Link href="/paper" className="inline-block bg-black text-white px-8 py-3 font-bold hover:bg-gray-800 transition">
+            <Link href="/paper/" className="inline-block bg-black text-white px-8 py-3 font-bold hover:bg-gray-800 transition">
               Read the Working Paper →
             </Link>
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
 
       <footer className="py-12 border-t border-gray-100 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 text-center text-sm text-gray-500">
-          <p>© 2026 Cognitive Sovereignty Foundation | <Link href="/internal" className="underline">Intranet</Link></p>
+          <p>© 2026 Cognitive Sovereignty Foundation | <Link href="/internal/" className="underline">Intranet</Link></p>
         </div>
       </footer>
     </div>
