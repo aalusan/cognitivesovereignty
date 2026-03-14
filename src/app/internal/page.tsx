@@ -45,13 +45,13 @@ export default function InternalPage() {
       type: "CognitiveTrace",
       id: `trace-${Math.random().toString(36).substr(2, 9)}`,
       timestamp: new Date().toISOString(),
-      input_context: { prompt: formData.get('prompt') as string },
+      input_context: { prompt: String(formData.get('prompt') || '') },
       deliberation: {
         options: options.filter(o => o.trim() !== ''),
-        trade_off: formData.get('trade_off') as string,
-        uncertainty: parseFloat(formData.get('uncertainty') as string)
+        trade_off: String(formData.get('trade_off') || ''),
+        uncertainty: parseFloat(String(formData.get('uncertainty') || '0'))
       },
-      final_judgment: formData.get('justification') as string
+      final_judgment: String(formData.get('justification') || '')
     };
     setJsonResult(trace);
   };
