@@ -5,7 +5,7 @@ export default function Home() {
     <div className="font-serif bg-white text-gray-900 min-h-screen">
       <header className="py-6 border-b border-gray-100">
         <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-xl font-bold tracking-tight">Cognitive Sovereignty Foundation</h1>
+          <h1 className="text-xl font-bold tracking-tight">Cognitive Sovereignty Foundation (v1.1)</h1>
         </div>
       </header>
 
