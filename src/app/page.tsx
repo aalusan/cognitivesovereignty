@@ -36,7 +36,7 @@ export default function Home() {
               We define and protect the legal and technical boundaries of cognitive ownership in the age of autonomous AI. Your reasoning architecture is a protectable, compensable asset.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/paper" className="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-950 font-semibold rounded-lg hover:bg-slate-200 transition-colors">
+              <Link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6397040" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 py-3 bg-white text-slate-950 font-semibold rounded-lg hover:bg-slate-200 transition-colors">
                 Read the Working Paper
               </Link>
               <a href="#protocol" className="inline-flex items-center justify-center px-6 py-3 bg-slate-900 text-white font-medium rounded-lg border border-slate-800 hover:bg-slate-800 transition-colors">
@@ -121,7 +121,7 @@ export default function Home() {
               <p className="text-slate-400 mb-6">
                 A comprehensive framework proposing the "Cognitive Constitution" structured around the right to cognitive sovereignty, algorithmic transparency, neural data protection, and legal accountability.
               </p>
-              <Link href="/paper" className="inline-flex items-center gap-2 text-white font-medium hover:text-blue-400 transition-colors">
+              <Link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6397040" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-white font-medium hover:text-blue-400 transition-colors">
                 View Document <span className="text-lg">→</span>
               </Link>
             </div>
