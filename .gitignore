@@ -2,4 +2,16 @@ node_modules
 .next
 .env
 .env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+.vercel
+.turbo
+coverage
 .DS_Store
