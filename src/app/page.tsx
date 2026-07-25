@@ -14,7 +14,6 @@ export default function Home() {
             <a href="#manifesto" className="hover:text-white transition-colors">Manifesto</a>
             <a href="#protocol" className="hover:text-white transition-colors">Protocol</a>
             <a href="#paper" className="hover:text-white transition-colors">Research</a>
-            <Link href="/internal" className="hover:text-white transition-colors">Intranet</Link>
           </nav>
         </div>
       </header>
@@ -133,7 +132,6 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500">
           <p>© 2026 Cognitive Sovereignty Foundation</p>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <Link href="/internal" className="hover:text-white transition-colors">Intranet / Portal</Link>
             <a href="#" className="hover:text-white transition-colors">Legal Terms</a>
           </div>
         </div>
